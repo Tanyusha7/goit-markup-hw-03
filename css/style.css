@@ -1,0 +1,196 @@
+
+:root{
+    --main-title-color: #2E2F42; 
+    --second-title-color: #FFFFFF;
+    --main-text-color: #434455;
+    --second-text-color: #E7E9FC;
+    --main-link-text-color: #2E2F42;
+    --second-link-text-color: #4D5AE5;
+    --third-link-text-color: #F4F4FD;
+    --main-btn-text-color:  #4D5AE5;
+    --second-btn-text-color:  #FFFFFF;
+    --main-btn-bcg-color: #4D5AE5;
+    --second-btn-bcg-color: #F4F4FD;
+    --hero-btn-bcg-color: #404BBF;
+    --accent-color:  #4D5AE5;
+    --main-bcg-color: #FFFFFF;
+    --second-bcg-color: #2E2F42;
+    --third-bcg-color: #F4F4FD;
+}
+
+
+/* body */
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--main-bcg-color);
+    font-size: 16px;
+}
+
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.section-title{
+    font-size: 36px;
+    line-height: 1.11;
+    
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-title-color);
+}
+.section-subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);    
+}
+.section-text{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/* header */
+.header-link{
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--main-link-text-color);
+}
+.header-link:hover, .header-link:focus{
+    color: var(--accent-color);
+}
+.header-logo{
+    font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--main-link-text-color);
+}
+.header-logo span{
+    color: var(--second-link-text-color);
+}
+
+.link-address{
+    font-style: normal;
+}
+.contact-link, 
+.contact-tel{
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+}
+.contact-link:hover, .contact-link:focus{
+    color: var(--accent-color);
+}
+
+.btn-items{
+font-family: inherit;
+ font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: var(--main-btn-text-color);
+    background: var(--second-btn-bcg-color);
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+cursor: pointer;
+}
+.btn-items:hover, .btn-items:focus{
+    background: var(--main-btn-bcg-color);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+color: var(--second-btn-text-color);
+}
+/* section1 */
+.hero{
+    background: var(--second-bcg-color);
+}
+.hero-title{
+font-size: 56px;
+line-height: 1.07;
+
+letter-spacing: 0.02em;
+color: var(--second-title-color);
+}
+.hero-btn{
+    font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: var(--second-btn-text-color);
+background: var(--main-btn-bcg-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor:pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+    background: var(--hero-btn-bcg-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/* section2 */
+
+/* section3 */
+
+/* section4 */
+.team{
+    background: var(--third-bcg-color);
+}
+
+.team-card{
+    background: var(--main-bcg-color);
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+}
+/* footer */
+.footer{
+    background: var(--second-bcg-color);
+}
+.footer-logo{
+    font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--third-link-text-color);
+}
+.footer-logo span{
+    color: var(--second-link-text-color);
+}
+.footer-text{
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--second-text-color);
+}
